@@ -24,8 +24,8 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: jinkkxdocker/react
+        image: jinkxdocker/react
         imagePullPolicy: Always
-        env: []
+        env: 
         ports:
         - containerPort: 3000
